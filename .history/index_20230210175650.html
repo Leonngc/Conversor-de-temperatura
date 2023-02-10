@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperatura</title>
+</head>
+<body>
+    <header>
+        <h1>Conversor de Temperatura</h1>
+        <menu>
+            <ul id="links-menu">
+                <li>Sobre a página</li>
+                <li>História</li>
+                <li>Outros Projetos</li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+       <form>
+        <h2>Qual unidade de temperatura você quer converter?</h2>
+        <label for="celsius">Celsius</label><input type="radio" name="unidade" id="celsius" checked>
+        <label for="kelvin">Kelvin</label><input type="radio" name="unidade" id="kelvin">
+        <label for="fahrenheit">Fahrenheit</label><input type="radio" name="unidade" id="fahrenheit">
+        <br>
+       </form>
+       <form>
+        <h2>Para qual unidade de temperatura?</h2>
+        <label for="cel-res">Celsius</label><input type="radio" name="unidade" id="celsius" checked>
+        <label for="kelvin">Kelvin</label><input type="radio" name="unidade" id="kel-res">
+        <label for="fahrenheit">Fahrenheit</label><input type="radio" name="unidade" id="fah-res">
+        <input type="number" name="graus" id="graus" placeholder="Insira o valor">
+       </form>
+       <button id="submit">Enviar</button>
+    </main>
+
+    <footer>
+        <p>Projeto de um conversor de temperatura feito por Nicolas Leon. Siga-me nas redes:</p>
+    </footer>
+</body>
+</html>
