@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de temperatura</title>
+</head>
+<body>
+    <header>
+        <h1>Conversor de Temperatura</h1> 
+        <button id="menu-button"><i class="fi fi-bs-menu-burger"></i></button>
+       
+        <menu>
+            <ul id="links-menu">
+                <li><a href="">Sobre a página</a></li>
+                <li><a href="">História</a></li>
+                <li><a href="">Outros Projetos</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+       <form>
+        <h2>Qual unidade de temperatura você quer converter?</h2>
+        <label for="celsius">Celsius</label><input type="radio" name="unidade" id="celsius" class="unidades" checked>
+        <label for="kelvin">Kelvin</label><input type="radio" name="unidade" class="unidades" id="kelvin">
+        <label for="fahrenheit">Fahrenheit</label><input type="radio" name="unidade" class="unidades" id="fahrenheit">
+        <br>
+       </form>
+       <form>
+        <h2>Para qual unidade de temperatura?</h2>
+        <label for="cel-res">Celsius</label><input type="radio" name="res-unidade" id="cel-res" class="res-unidades"  checked>
+        <label for="kel-res">Kelvin</label><input type="radio" name="res-unidade" id="kel-res" class="res-unidades">
+        <label for="fah-res">Fahrenheit</label><input type="radio" name="res-unidade" id="fah-res" class="res-unidades">
+        <input type="number" name="graus" id="graus" placeholder="Insira o valor">
+       </form>
+       <button id="submit">Enviar</button>
+    </main>
+
+    <footer>
+        <p>Projeto de um conversor de temperatura feito por Nicolas Leon. Siga-me nas redes: </p>
+        <ul>
+            <li><a href="">Github</a><i class="fi fi-brands-github"></i></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Linkedin</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
