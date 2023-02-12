@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family= Dosis:wght@300 & display = swap');
+:root{
+    --yellow: #F7FF58;
+    --snow: #FBFBFF;
+    --blackout: #040F16;
+    --dosis
+main{
+    margin: auto;
+    width: 85vw;
+}
+
+main > h2{
+    text-align: center;
+    font-family: var(--dosis);
+    padding: 20px;
+}
+
+article > p{
+    font-family: var(--dosis);
+    font-size: 18px;
+    padding: 20px;
+}
+
+div > img{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+legend{
+    text-align: center;
+}
+
+
+
+footer{
+    margin-top: 80px;
+    padding: 10px;
+    border: 4px solid #03583e;
+    font-size: 16px;
+    font-family: var(--dosis);
+}
+
+footer > ul{
+    padding: 25px;
+}
+
+footer > ul > li > a{
+    color: rgb(193, 90, 152);
+    font-size: 19px;
+}
