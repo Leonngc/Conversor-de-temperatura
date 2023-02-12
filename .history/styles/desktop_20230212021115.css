@@ -1,0 +1,22 @@
+@media screen and (min-width:900px){
+    header > h1{
+        font-size: 60px;
+    }
+
+    #menu-button{
+        display: none;
+    }
+
+    #links-menu{
+        display: none;
+    }
+
+    #menu-desktop{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu-desktop > ul > li{
+        
+    }
+}

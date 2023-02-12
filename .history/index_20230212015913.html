@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css'> <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/.css">
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+    <title>Conversor de temperatura</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Conversor de Temperatura </h1> 
+        <img src="image/urso-polar.png" alt=""><button id="menu-button"><i class="fi fi-bs-menu-burger"></i></button>
+       
+        <menu>
+            <ul id="links-menu">
+                <li><a href="about.html">Sobre a página</a></li>
+                <li><a href="history.html">História</a></li>
+                <li><a href="projects.html">Outros Projetos</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+       <form>
+        <h2>Qual unidade de temperatura você quer converter?</h2>
+        <label for="celsius">Celsius</label><input type="radio" name="unidade" id="celsius" class="unidades" checked>
+        <label for="kelvin">Kelvin</label><input type="radio" name="unidade" class="unidades" id="kelvin">
+        <label for="fahrenheit">Fahrenheit</label><input type="radio" name="unidade" class="unidades" id="fahrenheit">
+        <br>
+       </form>
+       <form>
+        <h2>Para qual unidade de temperatura?</h2>
+        <label for="cel-res">Celsius</label><input type="radio" name="res-unidade" id="cel-res" class="res-unidades"  checked>
+        <label for="kel-res">Kelvin</label><input type="radio" name="res-unidade" id="kel-res" class="res-unidades">
+        <label for="fah-res">Fahrenheit</label><input type="radio" name="res-unidade" id="fah-res" class="res-unidades">
+        <br>
+        <input type="number" name="graus" id="graus" placeholder="Insira o valor">
+       </form> 
+       <button id="submit">Enviar</button>
+
+       <div id="res">
+        
+       </div>
+    </main>
+
+    <footer>
+        <p>Projeto de um conversor de temperatura feito por Nicolas Leon. Siga-me nas redes: </p>
+        <ul>
+            <li><i class="fi fi-brands-github"></i> <a href="https://github.com/Leonngc" target="_blank">Github</a></i></li>
+            <li><i class="fi fi-brands-instagram"></i> <a href="https://www.instagram.com/leonn_gc/" target="_blank">Instagram</a></li>
+            <li><i class="fi fi-brands-linkedin"></i> <a href="https://www.linkedin.com/in/nicolas-leon-70038921b/" target="_blank">Linkedin</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

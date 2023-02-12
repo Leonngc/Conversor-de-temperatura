@@ -1,0 +1,40 @@
+@media screen and (min-width:900px){
+    header > h1{
+        font-size: 60px;
+    }
+
+    #menu-button{
+        display: none;
+    }
+
+    #links-menu{
+        display: none;
+    }
+
+    #menu-desktop{
+        display: inline-block;
+        padding: 12px;
+        width: 100vw;
+    }
+
+    #menu-desktop > a{
+        color: white;
+        padding: 12px;
+        font-size: 18px;
+        text-decoration: none;
+        background-color: #03583e8a;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #menu-desktop > a:hover{
+        text-decoration: underline;
+        transform: scale(1.1);
+        background-color: #03583e6a;
+    }
+
+    legend{
+        font-size: 25px;
+    }
+
+    foo
+}
