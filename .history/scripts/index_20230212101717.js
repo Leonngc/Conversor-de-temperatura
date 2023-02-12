@@ -19,7 +19,7 @@ function calcTemp(){
             if(Number.isInteger(resultInt) == true){
                 res.innerHTML = `${graus} Fahrenheit em Celsius é ${resultInt}°C`
          }else if(Number.isInteger(resultInt) == false){
-            res.innerHTML = `${graus} Fahrenheit em Celsius é ${resultInt.toPrecision(3)}°C`
+            res.innerHTML = `${graus} Fahrenheit em Celsius é ${resultInt.toPrecision(5)}°C`
         }
 
         //Celsius para kelvin

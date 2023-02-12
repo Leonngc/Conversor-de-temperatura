@@ -2,47 +2,34 @@
 :root{
     --dosis: 'Dosis', sans-serif;
 }
+
 main{
-    width: 85vw;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 85vw;
+    
 }
 
 main > h2{
+    font-family: var(--dosis);
+    font-size: 26px;
     text-align: center;
-    font-size: 22px;
-    padding: 12px;
+    margin: 30px;
+}
+
+main > p{
+    font-family: var(--dosis);
+    font-size: 18px;
+    text-indent: 1em;
+    text-align: start;
+    padding: 25px;
+    word-spacing: .3em;
 }
 
 div > img{
     display: block;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
 }
-
-main > ul{
-    display: block;
-    margin: 30px;
-    padding: 20px;
-    list-style: square;
-}
-
-main > ul > li{
-    padding-bottom: 14px;
-}
-
-main > ul > li > a{
-    color: black;
-    text-decoration: underline;
-    text-align: center;
-    font-family: var(--dosis);
-    font-size: 26px;
-}
-
-main > p{
-    font-size: 20px;
-}
-
 
 footer{
     margin-top: 80px;
@@ -53,8 +40,9 @@ footer{
 }
 
 footer > ul{
-    padding: 20px;
+    padding: 25px;
 }
+
 
 footer > ul > li{
     padding: 6px;
@@ -64,4 +52,3 @@ footer > ul > li > a{
     color: rgb(193, 90, 152);
     font-size: 22px;
 }
-

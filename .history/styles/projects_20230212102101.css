@@ -53,7 +53,7 @@ footer{
 }
 
 footer > ul{
-    padding: 20px;
+    padding: 25px;
 }
 
 footer > ul > li{
@@ -62,6 +62,6 @@ footer > ul > li{
 
 footer > ul > li > a{
     color: rgb(193, 90, 152);
-    font-size: 22px;
+    font-size: 19px;
 }
 
